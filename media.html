@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <!-- question 1-Create a simple Elog weEpage on PW SkillsL The weEpage must contain at least 1 headings, 1 image, and -->
+    <!-- some information aEout PW SkillsK -->
+
+        <header>
+        <h1>Welcome to PW Skills</h1>
+    </header>
+
+    <section>
+        <img src="your-image-url.jpg" alt="PW Skills Image">
+        <p>PW Skills is a platform dedicated to enhancing and showcasing your skills in the field of power washing (PW). Whether you are a beginner or an experienced professional, we provide resources and tools to help you excel in your power washing endeavors.</p>
+        <p>Our mission is to empower individuals with the knowledge and expertise needed to achieve superior results in power washing projects. From equipment reviews to technique tutorials, we cover a wide range of topics to cater to your learning needs.</p>
+    </section>
+
+    <footer>
+        <p>Connect with us on social media:</p>
+        <ul>
+            <li><a href="https://facebook.com/pwskills" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/pwskills" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com/pwskills" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <!-- question 2- Create a simple weEpage with the PW Skills logo and add a title attriEute with the value “PW Skills”L -->
+    <!-- OEserve the changes that the title attriEute applies to the imageK -->
+
+    <header>
+        <h1>Welcome to PW Skills</h1>
+    </header>
+
+    <section>
+        <!-- Add title attribute to the image tag -->
+        <img src="your-logo-url.png" alt="PW Skills Logo" title="PW Skills">
+        <p>PW Skills is a platform dedicated to enhancing and showcasing your skills in the field of power washing (PW). Whether you are a beginner or an experienced professional, we provide resources and tools to help you excel in your power washing endeavors.</p>
+        <p>Our mission is to empower individuals with the knowledge and expertise needed to achieve superior results in power washing projects. From equipment reviews to technique tutorials, we cover a wide range of topics to cater to your learning needs.</p>
+    </section>
+
+    <footer>
+        <p>Connect with us on social media:</p>
+        <ul>
+            <li><a href="https://facebook.com/pwskills" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/pwskills" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com/pwskills" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+             <!-- question 3 Create a <audio> tag that has controls to pause, play, and adjust the volume -->
+
+               
+                
+                    <h1>Audio Player</h1>
+                
+                    <audio controls>
+                        <!-- Replace "your-audio-file.mp3" with the actual path or URL of your audio file -->
+                        <source src="your-audio-file.mp3" type="audio/mp3">
+                        Your browser does not support the audio tag.
+                    </audio>
+                
+              <!-- question 4-Create a <audio> tag that automatically starts playing a song when the page loads. The audio tag should
+                have controls to pause, play, and adjust the volumeL Additionally, the song should be set to loop
+                continuously until it is paused by the user -->
+                    
+               
+
+    <h1>Auto-play Audio</h1>
+
+    <audio controls autoplay loop>
+        <!-- Replace "your-audio-file.mp3" with the actual path or URL of your audio file -->
+        <source src="your-audio-file.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+ <!-- question 5-Create a <video> tag that automatically starts pla*ing a sunrise video when the page loadsL The video tag
+    should have controls to pause, play, and adjust the volume -->
+
+
+    <h1>Auto-play Video</h1>
+
+    <video controls autoplay>
+        <!-- Replace "your-sunrise-video.mp4" with the actual path or URL of your video file -->
+        <source src= "C:\Users\mansi\OneDrive\Desktop\java lecture\Java Programming Full Tutorial in One Video (2024) _ Java full course(1080P_HD).mp4" controls type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- question 6--Create a similar webpage as we build for assignment question 5L Add a poster attribute to the <video> tag
+        that displays an image of the sunrise -->
+
+        
+            <h1>Auto-play Video with Poster</h1>
+        
+            <video controls autoplay poster="sunrise-poster.jpg">
+                <!-- Replace "your-sunrise-video.mp4" with the actual path or URL of your video file -->
+                <source src="C:\Users\mansi\OneDrive\Desktop\java lecture\Java Programming Full Tutorial in One Video (2024) _ Java full course(1080P_HD).mp4" controls type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+      
+            <!-- question 7-Create a similar webpage as we built for assignment question and disable the download option -->
+    
+        <h1>Auto-play Video with Poster (Download Disabled)</h1>
+    
+        <video controls autoplay poster="sunrise-poster.jpg" controlsList="nodownload">
+            <!-- Replace "your-sunrise-video.mp4" with the actual path or URL of your video file -->
+            <source src=""C:\Users\mansi\OneDrive\Desktop\java lecture\Java Programming Full Tutorial in One Video (2024) _ Java full course(1080P_HD).mp4"  " type="video/mp4">
+           
+            Your browser does not support the video tag.
+        </video>
+    
+    
+<!-- question 8--Create a simple webpage that displays Wikipedias physics wallah page using an iframe -->
+
+    <h1>Physics Wallah Wikipedia Page</h1>
+
+    <iframe src="https://en.wikipedia.org/wiki/Physics_Wallah" width="800" height="600" frameborder="0"></iframe>
+
+<!-- question9--Create a feedback form with a field for the users name, email address, and message -->
+
+
+
+    <h1>Feedback Form</h1>
+
+    <form action="/submit_feedback" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+<!-- question 10-Create a registration form with fields for the users name, email address, password, and a checkEox to agree to the terms and conditions Use the text input type for the name and email fields, the password -->
+<!-- input type for the password field, and the checkEox input type for the terms and conditions field -->
+
+
+
+    <h1>Registration Form</h1>
+
+    <form action="/submit_registration" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label>
+
+        <input type="submit" value="Register">
+    </form>
+
+
+
+
+</body>
+</html>
+

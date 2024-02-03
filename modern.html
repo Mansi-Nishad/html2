@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Assigment </title>
+</head>
+<body>
+    <!-- question1-list out the feature of html 5 -->
+
+    <p>
+
+        1. Semantic Elements:
+           - Introduces new semantic elements like `<header>`, `<nav>`, `<article>`, `<footer>`, etc., making it easier to structure and understand the content of a web page.
+        
+        2. Audio and Video Support:
+           - Native support for embedding audio and video elements with `<audio>` and `<video>` tags, reducing the reliance on third-party plugins like Flash.
+        
+        3. Canvas:
+           - Introduces the `<canvas>` element, allowing dynamic rendering of graphics, charts, and other visualizations directly within the browser using JavaScript.
+        
+        4. Local Storage:
+           - Provides a new client-side storage mechanism called Web Storage, including `localStorage` and `sessionStorage`, allowing websites to store data locally on the user's device.
+        
+        5. Offline Web Applications:
+           - Introduces the Application Cache (AppCache) and Service Workers, enabling developers to create offline web applications that can work without an internet connection.
+        
+        6. Geolocation
+           - Includes the Geolocation API, allowing web applications to access the user's location information if the user grants permission.
+        
+        7. Form Enhancements:
+           - Adds new input types (`date`, `email`, `number`, `range`, `tel`, `url`, etc.) and attributes to enhance form controls and improve user experience.
+        
+        8. WebSockets:
+           - Introduces the WebSocket API, enabling real-time communication between the browser and the server over a single, long-lived connection.
+        
+        9. Web Workers:
+           - Allows developers to run scripts in the background using Web Workers, improving performance and responsiveness by offloading tasks from the main thread.
+        
+        10. Responsive Design:
+            - HTML5 encourages the use of responsive web design techniques to create websites that adapt to different screen sizes and devices.
+        
+        11. Drag and Drop:
+            - Adds native support for drag-and-drop interactions, making it easier to implement intuitive interfaces for users to interact with elements.
+        
+        12. Improved Accessibility:
+            - Introduces several features to enhance accessibility, such as the `<figure>` and `<figcaption>` elements for better image and caption associations.
+        
+        13. New Structural Elements:
+            - Introduces new structural elements like `<section>`, `<aside>`, `<mark>`, `<progress>`, and `<time>` for improved document structure and semantics.
+        
+        14. Enhanced CSS Support:
+            - Works seamlessly with CSS3 for styling and presentation enhancements.
+        
+        </p>
+
+    <!-- question 2-What are the html Entitie? list out 5 commonly  used html Entities? -->
+    
+<p>
+
+    1. **`&lt;` - Less Than Sign (<):**
+       - Represents the less than symbol ("<") and is used to display the character without the browser interpreting it as the beginning of an HTML tag.
+    
+    2. **`&gt;` - Greater Than Sign (>):**
+       - Represents the greater than symbol (">") and is used to display the character without the browser interpreting it as the end of an HTML tag.
+    
+    3. **`&amp;` - Ampersand (&):**
+       - Represents the ampersand symbol ("&") and is used to display the character without the browser interpreting it as the start of an HTML entity.
+    
+    4. **`&quot;` - Double Quotation Mark ("):**
+       - Represents the double quotation mark (") and is used to display the character without the browser interpreting it as the start or end of an attribute value.
+    
+    5. **`&copy;` - Copyright Symbol (©):**
+       - Represents the copyright symbol (©) and is used to display the character without the browser interpreting it as a command or reserved symbol.
+   </p> 
+
+    <!-- question 3- What is web accessibility ? list some of the assistive devices which play a major role in provinding accessibility. -->
+<p>
+    Web accessibility refers to the inclusive practice of designing and developing websites and web applications in a way that ensures people with disabilities can perceive, understand, navigate, and interact with the content effectively. The goal is to make the web accessible to everyone, regardless of their abilities or disabilities.
+
+Assistive devices play a crucial role in providing accessibility by helping individuals with disabilities interact with digital content.
+
+1. **Screen Readers:**
+   - Screen readers are software applications that convert digital text into synthesized speech. They read aloud the content of web pages, including text, links, and other elements, to users with visual impairments.
+
+2. **Braille Displays:**
+   - Braille displays are devices that convert digital text into Braille, allowing users with visual impairments to read the content through touch. They typically display one line of Braille characters at a time.
+
+3. **Screen Magnifiers:**
+   - Screen magnifiers help users with low vision by enlarging portions of the screen. Users can adjust the level of magnification and navigate through the magnified content.
+
+4. **Voice Recognition Software:**
+   - Voice recognition software enables users to control their computers and interact with websites using voice commands. This technology is beneficial for individuals with mobility or dexterity impairments.
+
+5. **Switch Access Devices:**
+   - Switch access devices are input devices that allow users to interact with computers and websites using switches or buttons. Users with limited mobility can activate these switches to control the cursor or navigate through content.
+
+6. **Keyboard Enhancements:**
+   - Keyboard enhancements, such as sticky keys or keyguards, help users with motor disabilities by modifying the way keyboard input is processed. This enables easier navigation and interaction using a standard keyboard.
+
+7. **Adaptive Keyboards:**
+   - Adaptive keyboards are specialized keyboards designed to meet the needs of users with specific motor or cognitive impairments. They may include features like larger keys, customizable layouts, or simplified controls.
+
+8. **Alternative Pointing Devices:**
+   - Alternative pointing devices, such as joysticks, trackballs, or touchpads, provide alternative means of controlling the cursor for users who may have difficulty using a standard mouse.
+
+9. **Closed Captioning and Subtitles:**
+   - Closed captioning and subtitles benefit individuals with hearing impairments by providing text descriptions of audio content in videos or multimedia presentations.
+
+10. **Text-to-Speech Software:**
+    - Text-to-speech (TTS) software converts written text into spoken words, helping users with reading difficulties or cognitive impairments comprehend content more easily.
+</p>
+<!-- question 4-- list any 3 ways which help us in improving the accessibility of html. -->
+
+<p> Improving the accessibility of HTML involves implementing practices that make web content more usable and navigable for individuals with disabilities. Here are three key ways to enhance HTML accessibility:
+
+1. **Semantic HTML:**
+   - Use semantic HTML elements to provide meaningful structure and context to the content. Semantic elements such as `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, and `<footer>` help screen readers and other assistive technologies understand the organization of the content. Proper use of headings (`<h1>` to `<h6>`) also aids in creating a clear hierarchy.
+
+    ```html
+    <!-- Example of Semantic HTML -->
+    <header>
+        <h1>Main Heading</h1>
+        <nav>
+            <!-- Navigation links -->
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Article Title</h2>
+            <!-- Article content -->
+        </article>
+        <section>
+            <h2>Section Title</h2>
+            <!-- Section content -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    ```
+
+2. **Provide Descriptive Alternative Text (Alt Text):**
+   - Include descriptive and concise alternative text for images using the `alt` attribute. This allows users with visual impairments to understand the content conveyed by images. If an image is purely decorative, use an empty `alt` attribute (`alt=""`) to indicate its decorative nature.
+
+    ```html
+    <!-- Example of Alt Text for Images -->
+    <img src="example.jpg" alt="Description of the image">
+    <img src="decorative.jpg" alt="">
+    ```
+
+3. **Keyboard Accessibility:**
+   - Ensure that all interactive elements and functionality on the website can be accessed and operated using a keyboard alone. This is essential for users who may have mobility issues or rely on alternative input devices. Test the tab order and make sure focus styles are clearly visible. Avoid relying solely on mouse events for critical interactions.
+
+
+    <!-- Example of Keyboard Accessible Button -->
+    <button type="button" onclick="myFunction()" onkeypress="myFunction()">
+        Click me
+    </button>
+</p>
+
+<!-- question 5--- write a short 0n the tab index. -->
+
+<p>
+ The `tabindex` attribute is used in HTML to define the tab order of focusable elements on a web page when navigating using the keyboard's "Tab" key. It specifies the order in which elements should receive focus when users navigate through interactive elements using the keyboard. The `tabindex` attribute can be applied to a variety of HTML elements, including links, form controls, and other interactive elements.
+
+Here are some key points about the `tabindex` attribute:
+
+1. **Default Tab Order:**
+   - By default, the tab order follows the natural flow of the HTML document. Elements are focused in the order in which they appear in the HTML source code. The `tabindex` attribute allows developers to customize this order.
+
+2. **Positive and Negative Values:**
+   - Positive values for `tabindex` (e.g., `tabindex="1"`, `tabindex="2"`) set the explicit tab order for elements. Elements with lower values are focused first. Elements with the same `tabindex` value are focused in their original source order.
+   - Setting a `tabindex` value of `-1` (e.g., `tabindex="-1"`) makes an element programmatically focusable but removes it from the default tab order. This is useful for elements that should be focusable via JavaScript but not accessible through normal keyboard navigation.
+
+3. **Keyboard Accessibility:**
+   - Using `tabindex` appropriately enhances keyboard accessibility, ensuring that users who rely on keyboard navigation can efficiently move through interactive elements on a page. It is essential for creating an inclusive user experience for people with mobility or visual impairments.
+
+4. **Avoid Excessive Use:**
+   - While `tabindex` can be a useful tool for improving accessibility, it should be used judiciously. Excessive use of `tabindex` values or overriding the natural tab order can lead to confusion for users and compromise the overall accessibility of the page.
+</p>
+
+   
+   
+<!-- question 9-Create a simple webpage with a form for a user to enter their personal information. The form should -->
+<!-- contain three input fields with the labels "first Name", "last Name", and "Email". The first input field should -->
+<!-- have a tabindex value of 2. The second input field should have a tabindex value of 1. The third input field -->
+<!-- should have a tabindex value of 4. The form should have a submit button with the label "submit" and a -->
+<!-- tabindex value of 3. observe the behaviors of tb# index on your webpage. -->
+
+
+
+
+<!-- question10--Create a simple webpage which has a table. The table must have 2 columns html and html5. The table -->
+<!-- should include minimum three rows describing the differences between html and html5. -->
+</body>
+</html>

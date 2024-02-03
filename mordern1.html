@@ -1,0 +1,143 @@
+
+   <!-- question 8-Create a simple webpage with semantic tags which has the header, main, and footer sections. The -->
+   <!-- header section must contain links to navigate to different sections of the webpage. The main section -->
+   <!-- must contain three subsections about what is html. What is semantic tags and a list of commonlly -->
+<!-- used   semantic tags ? In the end, the footer section must contain your name. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Semantic HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Simple Semantic HTML Page</h1>
+        <nav>
+            <a href="#what-is-html">What is HTML</a>
+            <a href="#what-are-semantic-tags">What are Semantic Tags</a>
+            <a href="#common-semantic-tags">Common Semantic Tags</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="what-is-html">
+            <h2>What is HTML</h2>
+            <p>HTML (Hypertext Markup Language) is the standard markup language used to create and structure content on the web. It is the backbone of web pages and is essential for building the structure of documents, including text, images, links, forms, and more.</p>
+        </section>
+
+        <section id="what-are-semantic-tags">
+            <h2>What are Semantic Tags</h2>
+            <p>Semantic tags in HTML provide meaning and structure to content. They convey the intended purpose of the content, making it more understandable for browsers, developers, and assistive technologies. Examples of semantic tags include <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>, and more.</p>
+        </section>
+
+        <section id="common-semantic-tags">
+            <h2>List of Commonly Used Semantic Tags</h2>
+            <ul>
+                <li><code>&lt;header&gt;</code></li>
+                <li><code>&lt;nav&gt;</code></li>
+                <li><code>&lt;main&gt;</code></li>
+                <li><code>&lt;section&gt;</code></li>
+                <li><code>&lt;article&gt;</code></li>
+                <li><code>&lt;aside&gt;</code></li>
+                <li><code>&lt;footer&gt;</code></li>
+                <!-- Add more as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by: Mansi Nishad</p>
+    </footer>
+ <!-- question 7- what are the benifits of using tags in our webpage?  -->
+ <p>Using HTML tags in a webpage provides several benefits, contributing to better structure, readability, and functionality. Here are some key advantages:
+
+    1. **Document Structure:**
+       - HTML tags define the structure of a document, indicating the different sections and elements present on the page. This helps browsers, developers, and other tools understand how the content is organized.
+    
+    2. **Readability and Maintainability:**
+       - Tags make the HTML code more readable and maintainable. They provide a clear hierarchy of elements and allow developers to easily identify different parts of the document, making it simpler to understand and update.
+    
+    3. **Semantic Meaning:**
+       - Semantic HTML tags carry meaning about the purpose of the content they enclose. Using tags like `<header>`, `<nav>`, `<article>`, and `<footer>` provides semantic information, making it easier for search engines and assistive technologies to interpret the content correctly.
+    
+    4. **Accessibility:**
+       - Proper use of semantic tags contributes to improved web accessibility. Screen readers and other assistive technologies rely on semantic HTML to understand and present content to users with disabilities.
+    
+    5. **Styling and Presentation:**
+       - HTML tags are essential for applying styles and formatting to content. By using tags, developers can apply CSS (Cascading Style Sheets) to control the visual presentation of elements, making it easier to create aesthetically pleasing and consistent designs.
+    
+    6. **Scripting and Interactivity:**
+       - Tags provide a foundation for incorporating interactivity through JavaScript or other scripting languages. Interactive elements like forms, buttons, and links are defined using HTML tags, enabling developers to enhance user experience and functionality.
+    
+    7. **Search Engine Optimization (SEO):**
+       - Search engines use the structure and content of HTML documents to index and rank web pages. Properly structured HTML with meaningful tags can positively impact SEO, helping search engines understand the relevance and importance of different parts of the content.
+    
+    8. **Cross-Browser Compatibility:**
+       - HTML tags ensure cross-browser compatibility by providing a consistent structure that browsers can interpret and render. Web developers can rely on standardized HTML to ensure that their content is displayed correctly across various browsers.
+    
+    9. **Responsive Design:**
+       - HTML tags play a crucial role in creating responsive web designs. By using tags like `<nav>`, `<main>`, and `<section>`, developers can create layouts that adapt to different screen sizes and devices, providing a better user experience on desktops, tablets, and smartphones.
+    
+    10. **Standardization and Consistency:**
+        - HTML tags provide a standardized way of marking up content, promoting consistency across websites and web applications. This standardization facilitates collaboration among developers and helps maintain a uniform structure in the web ecosystem.
+    
+     </p>
+ <!-- question 6-list any 5 semantic tags in html along with their descriptions. -->
+<p>
+    Semantic HTML tags provide a clear structure to web documents, making it easier for browsers, developers, and assistive technologies to understand the content. Here are five commonly used semantic tags along with their descriptions:
+ 
+ 1. **`<header>`:**
+    - **Description:** Represents the header of a section or a page. Typically contains headings, logos, navigation menus, and other introductory content. Multiple `<header>` elements can be used within a document to define headers for different sections.
+ 
+ 2. **`<nav>`:**
+    - **Description:** Represents a navigation menu or links to other pages, providing a way for users to navigate through the website. The content inside `<nav>` is typically a list of links or navigation-related elements.
+ 
+ 3. **`<main>`:**
+    - **Description:** Represents the main content of the document. It excludes headers, footers, and sidebars. The `<main>` element helps screen readers and other assistive technologies identify the primary content area on a page.
+ 
+ 4. **`<article>`:**
+    - **Description:** Represents a self-contained piece of content that could be distributed and reused independently. Common examples include news articles, blog posts, forum posts, or comments. Each `<article>` should have its own heading, providing a clear structure.
+ 
+ 5. **`<footer>`:**
+    - **Description:** Represents the footer of a section or a page. Typically contains metadata, copyright information, links to related documents, or contact details. Multiple `<footer>` elements can be used within a document to define footers for different sections.
+ </p>
+ 
+ 
+</body>
+</html>
